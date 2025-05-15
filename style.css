@@ -56,3 +56,15 @@
     color: #777;
   }
   
+
+  @media (min-width: 600px) {
+    .col-6 {
+      flex: 1 1 50%;
+    }
+    .col-4 {
+      flex: 1 1 33.33%;
+    }
+    .col-3 {
+      flex: 1 1 25%;
+    }
+  }
